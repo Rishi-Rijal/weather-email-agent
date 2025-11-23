@@ -13,7 +13,7 @@ A small TypeScript project demonstrating an OpenAI-powered agent with two tools:
 - A Gmail account and an App Password (if using Gmail with Nodemailer)
 
 **Files of interest**
-- `agent_tool.ts` — main agent and tools
+- `index.ts` — main agent and tools
 - `package.json` — project config & dependencies
 
 **Environment variables**
@@ -43,19 +43,19 @@ This project is written in TypeScript. Recommended ways to run it during develop
 - With `tsx` (no build step):
 
 ```bash
-npx tsx agent_tool.ts
+npx tsx index.ts
 ```
 
 - With `ts-node`:
 
 ```bash
-npx ts-node agent_tool.ts
+npx ts-node index.ts
 ```
 
 - Or compile then run with Node:
 
 ```bash
 npx tsc
-node dist/agent_tool.js
+node dist/index.js
 ```
 
