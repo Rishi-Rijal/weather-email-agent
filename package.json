@@ -1,0 +1,19 @@
+{
+  "name": "learn-agent",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch index.js"
+  },
+  "author": "Rishi Rijal",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@openai/agents": "^0.3.3",
+    "axios": "^1.13.2",
+    "dotenv": "^17.2.3",
+    "nodemailer": "^7.0.10",
+    "zod": "^3.25.76"
+  }
+}
