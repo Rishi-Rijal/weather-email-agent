@@ -70,4 +70,4 @@ async function main(query: string = '') {
     console.log('Agent Result:', result.finalOutput);
 }
 
-main('What is the weather in my current location(Aschaffenburg) find it and email to my address r.ramishir@gmail.com');
+main('What is the weather in my current location(Aschaffenburg) find it and email to my address ramrijalrishi@gmail.com');
